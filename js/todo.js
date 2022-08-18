@@ -20,7 +20,7 @@ const jwt = localStorage.getItem(JWT_KEY);
 if (jwt != null){
     getGoogleData(jwt);
 }else{
-    window.location.href = "https://yeoyoonn.github.io/todo-demo/login.html";
+    window.location.href = "login.html";
 }
 
 
