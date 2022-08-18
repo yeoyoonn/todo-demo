@@ -19,7 +19,7 @@ function parseJwt (token) {
       // decodeJwtResponse() is a custom function defined by you
       // to decode the credential response.
       const responsePayload = parseJwt(response.credential);
-      window.location.href = "http://localhost:5500/toyproject/";
+      window.location.href = "https://yeoyoonn.github.io/todo-demo/";
       localStorage.setItem("JWT", JSON.stringify(responsePayload));
       console.log("ID: " + responsePayload.sub);
       console.log('Full Name: ' + responsePayload.name);
