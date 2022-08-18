@@ -95,14 +95,7 @@
             crossorigin="anonymous"></script>
         <script src="js/topbar.js"></script>
         <script src="js/login.js"></script>
-          <script>
-    if (window.location.hash.length > 1) {
-      const path = window.location.hash.replace('#', '')
-      history.pushState({ page: 1 }, "Some title", '/todo-demo' + path)
 
-      document.getElementById('header').innerHTML = document.getElementById('header').innerHTML.replace('{PATH}', path)
-    }
-  </script>
     
     </body>
 </html>
